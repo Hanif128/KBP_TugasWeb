@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Website Dasar Konsep Bahasa Pemrograman</title>
+</head>
+<body>
+    <p>
+        Nama : Muhammad Hanif Machdi <br>
+        NIM : 23106050025 <br>
+        Kelas : Konsep Bahasa Pemrograman
+    </p>
+    <h1>Tugas Membuat Halaman Website Sederhana</h1>
+    <h2>A. Menampilkan Gambar dengan Source Lokal</h2>
+    <img src="./hand.jpg" alt="" class="foto">
+    
+    <h2>B. Menampilkan Formulir</h2>
+    <form action="">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="isi nama anda disini"> <br>
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" placeholder="isi NIM anda disini"> <br>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <h2>C. Menampilkan Tabel</h2>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>NIM</th>
+        </tr>
+        <tr>
+            <td>Hanif</td>
+            <td>23106050025</td>
+        </tr>
+        <tr>
+            <td>Zafyra</td>
+            <td>16231059</td>
+        </tr>
+    </table>
+</body>
+<style>
+    .foto{
+        max-width: 250px;
+    }
+</style>
+</html>
